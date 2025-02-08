@@ -3,7 +3,7 @@ from pathlib import Path
 from ultralytics import YOLO
 import os
 
-# Path to your YOLO model and test images folder
+# Path to YOLO model and test images folder
 model_path = r"C:\Users\alzah\Downloads\model.pt"
 test_images_path = r"C:\Users\alzah\Desktop\testimage"  
 
@@ -11,7 +11,7 @@ test_images_path = r"C:\Users\alzah\Desktop\testimage"
 model = YOLO(model_path)
 model.yaml['nc'] = 3  # Update to 3 classe
 
-# Train the model using your new data (with 3 classes)
+# Train model using new data (with 3 classes)
 model.train(data='data.yaml', epochs=10, batch=20)
 
 # Create 'result' directory if it doesn't exist
