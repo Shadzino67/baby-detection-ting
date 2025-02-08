@@ -1,4 +1,7 @@
-train: C:/Users/alzah/Desktop/testimage/train/crying/
+
+#trying to add the third state
+
+train: C:/Users/alzah/Desktop/testimage/train/crying/ #paths to the datasets & annotated pics
 val: C:/Users/alzah/Desktop/testimage/val/crying/
 names: ['open', 'closed', 'crying']
 nc: 3  # 3 classes in total
