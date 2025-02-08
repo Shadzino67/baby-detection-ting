@@ -1,0 +1,4 @@
+train: C:/Users/alzah/Desktop/testimage/train/crying/
+val: C:/Users/alzah/Desktop/testimage/val/crying/
+names: ['open', 'closed', 'crying']
+nc: 3  # 3 classes in total
