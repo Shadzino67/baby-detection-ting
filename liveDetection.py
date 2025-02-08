@@ -1,7 +1,7 @@
 import cv2
 from ultralytics import YOLO
 
-# Load your YOLO model
+# Load YOLO model
 model_path = r"C:\Users\alzah\Downloads\model.pt"  
 model = YOLO(model_path)
 
